@@ -1,7 +1,7 @@
 /**
  * ECPS Health Center
  */
-package com.jadeite.insight.file.parser.beans;
+package com.bns.ecps.hc.finmon.beans;
 
 import java.util.List;
 import java.util.Map;
