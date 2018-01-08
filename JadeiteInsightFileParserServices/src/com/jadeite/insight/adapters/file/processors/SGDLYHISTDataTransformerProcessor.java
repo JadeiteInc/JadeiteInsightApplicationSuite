@@ -19,7 +19,7 @@ import java.util.TreeMap;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-import com.bns.ecps.hc.commons.interfaces.Processor;
+import com.jadeite.insight.utils.commons.interfaces.Processor;
 import com.jadeite.insight.adapters.file.constants.CanonicalSGDLYHISTReportDataConstants;
 import com.jadeite.insight.adapters.file.constants.CommonProcessorInputOutputConstants;
 import com.jadeite.insight.adapters.file.constants.SGDLYHISTHeaderFormatConstants.FIRST_LINE;
@@ -50,7 +50,7 @@ public class SGDLYHISTDataTransformerProcessor implements Processor {
 	}
 	
 	/* (non-Javadoc)
-	 * @see com.bns.ecps.hc.commons.interfaces.Processor#process(java.util.Map)
+	 * @see com.jadeite.insight.utils.commons.interfaces.Processor#process(java.util.Map)
 	 */
 	@SuppressWarnings("unchecked")
 	@Override

@@ -11,5 +11,6 @@
 	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/poi-3.17/poi-ooxml-3.17.jar"/>
 	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
 	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/poi-3.17/poi-scratchpad-3.17.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JadeiteInsightCommonUtils"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

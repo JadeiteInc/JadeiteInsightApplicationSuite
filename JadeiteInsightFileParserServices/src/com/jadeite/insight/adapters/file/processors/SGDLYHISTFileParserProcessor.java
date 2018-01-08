@@ -26,7 +26,7 @@ import java.util.stream.Stream;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-import com.bns.ecps.hc.commons.interfaces.Processor;
+import com.jadeite.insight.utils.commons.interfaces.Processor;
 import com.jadeite.insight.adapters.file.constants.SGDLYHISTHeaderFormatConstants.FIRST_LINE;
 import com.jadeite.insight.adapters.file.constants.SGDLYHISTHeaderFormatConstants.SECOND_LINE;
 import com.jadeite.insight.adapters.file.constants.SGDLYHISTHeaderFormatConstants.THIRD_LINE;
