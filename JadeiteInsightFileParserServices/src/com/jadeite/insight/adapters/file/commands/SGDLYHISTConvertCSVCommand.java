@@ -1,7 +1,7 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.commands;
+package com.jadeite.insight.adapters.file.commands;
 
 import java.io.FileWriter;
 import java.util.List;
@@ -10,8 +10,8 @@ import java.util.Map;
 import org.apache.commons.chain.Command;
 import org.apache.commons.chain.Context;
 
-import com.bns.ecps.hc.finmon.constants.CanonicalSGDLYHISTReportDataConstants;
-import com.bns.ecps.hc.finmon.constants.CommandContextConstants;
+import com.jadeite.insight.adapters.file.constants.CanonicalSGDLYHISTReportDataConstants;
+import com.jadeite.insight.adapters.file.constants.CommandContextConstants;
 
 /**
  * @author Jay Mukherjee

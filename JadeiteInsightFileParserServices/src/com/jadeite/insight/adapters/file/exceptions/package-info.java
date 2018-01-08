@@ -5,4 +5,4 @@
  * @author s1807138
  *
  */
-package com.bns.ecps.hc.finmon.exceptions;
+package com.jadeite.insight.adapters.file.exceptions;

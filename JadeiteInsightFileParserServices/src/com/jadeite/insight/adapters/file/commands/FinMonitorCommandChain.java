@@ -1,7 +1,7 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.commands;
+package com.jadeite.insight.adapters.file.commands;
 
 import org.apache.commons.chain.impl.ChainBase;
 import org.apache.log4j.LogManager;

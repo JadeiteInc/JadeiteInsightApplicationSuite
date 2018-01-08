@@ -1,11 +1,11 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.processors;
+package com.jadeite.insight.adapters.file.processors;
 
-import static com.bns.ecps.hc.finmon.constants.CanonicalSGDLYHISTReportDataConstants.CLOSING_BALANCE;
-import static com.bns.ecps.hc.finmon.constants.CanonicalSGDLYHISTReportDataConstants.DAILY_BALANCE;
-import static com.bns.ecps.hc.finmon.constants.CommonProcessorInputOutputConstants.PARSED_SGDLYHIST_DATA;
+import static com.jadeite.insight.adapters.file.constants.CanonicalSGDLYHISTReportDataConstants.CLOSING_BALANCE;
+import static com.jadeite.insight.adapters.file.constants.CanonicalSGDLYHISTReportDataConstants.DAILY_BALANCE;
+import static com.jadeite.insight.adapters.file.constants.CommonProcessorInputOutputConstants.PARSED_SGDLYHIST_DATA;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -20,16 +20,16 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 import com.bns.ecps.hc.commons.interfaces.Processor;
-import com.bns.ecps.hc.finmon.constants.CanonicalSGDLYHISTReportDataConstants;
-import com.bns.ecps.hc.finmon.constants.CommonProcessorInputOutputConstants;
-import com.bns.ecps.hc.finmon.constants.SGDLYHISTHeaderFormatConstants.FIRST_LINE;
-import com.bns.ecps.hc.finmon.constants.SGDLYHISTReportDataFormatConstants;
-import com.bns.ecps.hc.finmon.constants.SGDLYHISTReportDataFormatConstants.ACCOUNT_NUMBER_LINE;
-import com.bns.ecps.hc.finmon.constants.SGDLYHISTReportDataFormatConstants.CLOSING_BALANCE_LINE;
-import com.bns.ecps.hc.finmon.constants.SGDLYHISTReportDataFormatConstants.DAILY_BALANCE_LINE;
-import com.bns.ecps.hc.finmon.constants.SGDLYHISTReportDataFormatConstants.OPENING_BALANCE_LINE;
-import com.bns.ecps.hc.finmon.constants.SGDLYHISTReportDataFormatConstants.REPORT_DATA_LINE;
-import com.bns.ecps.hc.finmon.constants.SGDLYHISTReportDataHeaderFormatConstants;
+import com.jadeite.insight.adapters.file.constants.CanonicalSGDLYHISTReportDataConstants;
+import com.jadeite.insight.adapters.file.constants.CommonProcessorInputOutputConstants;
+import com.jadeite.insight.adapters.file.constants.SGDLYHISTHeaderFormatConstants.FIRST_LINE;
+import com.jadeite.insight.adapters.file.constants.SGDLYHISTReportDataFormatConstants;
+import com.jadeite.insight.adapters.file.constants.SGDLYHISTReportDataFormatConstants.ACCOUNT_NUMBER_LINE;
+import com.jadeite.insight.adapters.file.constants.SGDLYHISTReportDataFormatConstants.CLOSING_BALANCE_LINE;
+import com.jadeite.insight.adapters.file.constants.SGDLYHISTReportDataFormatConstants.DAILY_BALANCE_LINE;
+import com.jadeite.insight.adapters.file.constants.SGDLYHISTReportDataFormatConstants.OPENING_BALANCE_LINE;
+import com.jadeite.insight.adapters.file.constants.SGDLYHISTReportDataFormatConstants.REPORT_DATA_LINE;
+import com.jadeite.insight.adapters.file.constants.SGDLYHISTReportDataHeaderFormatConstants;
 
 /**
  * @author  Jay Mukherjee

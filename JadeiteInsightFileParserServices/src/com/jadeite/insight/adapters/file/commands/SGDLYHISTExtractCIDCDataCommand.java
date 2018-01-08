@@ -1,16 +1,16 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.commands;
+package com.jadeite.insight.adapters.file.commands;
 
-import static com.bns.ecps.hc.finmon.constants.CommandContextConstants.SG_DAILY_HISTORY_CANONICAL_CIDC_DATA;
-import static com.bns.ecps.hc.finmon.constants.CommandContextConstants.SG_DAILY_HISTORY_CANONICAL_DATA;
-import static com.bns.ecps.hc.finmon.constants.CommonConstants.CA_23069;
-import static com.bns.ecps.hc.finmon.constants.CommonConstants.HA_95703;
-import static com.bns.ecps.hc.finmon.constants.CommonConstants.MO_83451;
-import static com.bns.ecps.hc.finmon.constants.CommonConstants.TO_65052;
-import static com.bns.ecps.hc.finmon.constants.CommonConstants.VA_93120;
-import static com.bns.ecps.hc.finmon.constants.CommonConstants.WI_05827;
+import static com.jadeite.insight.adapters.file.constants.CommandContextConstants.SG_DAILY_HISTORY_CANONICAL_CIDC_DATA;
+import static com.jadeite.insight.adapters.file.constants.CommandContextConstants.SG_DAILY_HISTORY_CANONICAL_DATA;
+import static com.jadeite.insight.adapters.file.constants.CommonConstants.CA_23069;
+import static com.jadeite.insight.adapters.file.constants.CommonConstants.HA_95703;
+import static com.jadeite.insight.adapters.file.constants.CommonConstants.MO_83451;
+import static com.jadeite.insight.adapters.file.constants.CommonConstants.TO_65052;
+import static com.jadeite.insight.adapters.file.constants.CommonConstants.VA_93120;
+import static com.jadeite.insight.adapters.file.constants.CommonConstants.WI_05827;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,8 +23,8 @@ import org.apache.commons.chain.Context;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-import com.bns.ecps.hc.finmon.constants.CanonicalSGDLYHISTReportDataConstants;
-import com.bns.ecps.hc.finmon.constants.CommonConstants;
+import com.jadeite.insight.adapters.file.constants.CanonicalSGDLYHISTReportDataConstants;
+import com.jadeite.insight.adapters.file.constants.CommonConstants;
 
 /**
  * @author  Jay Mukherjee

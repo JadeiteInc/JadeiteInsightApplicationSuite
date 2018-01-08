@@ -1,7 +1,7 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.constants;
+package com.jadeite.insight.adapters.file.constants;
 
 import java.sql.Date;
 import java.sql.Timestamp;

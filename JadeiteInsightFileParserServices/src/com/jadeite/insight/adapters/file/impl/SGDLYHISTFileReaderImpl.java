@@ -1,9 +1,9 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.impl;
+package com.jadeite.insight.adapters.file.impl;
 
-import static com.bns.ecps.hc.finmon.constants.CommonProcessorInputOutputConstants.SOURCE_FILE_DETAILS;
+import static com.jadeite.insight.adapters.file.constants.CommonProcessorInputOutputConstants.SOURCE_FILE_DETAILS;
 
 import java.io.FileWriter;
 import java.util.HashMap;
@@ -13,10 +13,10 @@ import java.util.Map;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-import com.bns.ecps.hc.finmon.constants.CanonicalSGDLYHISTReportDataConstants;
-import com.bns.ecps.hc.finmon.constants.CommonProcessorInputOutputConstants;
-import com.bns.ecps.hc.finmon.processors.SGDLYHISTDataTransformerProcessor;
-import com.bns.ecps.hc.finmon.processors.SGDLYHISTFileParserProcessor;
+import com.jadeite.insight.adapters.file.constants.CanonicalSGDLYHISTReportDataConstants;
+import com.jadeite.insight.adapters.file.constants.CommonProcessorInputOutputConstants;
+import com.jadeite.insight.adapters.file.processors.SGDLYHISTDataTransformerProcessor;
+import com.jadeite.insight.adapters.file.processors.SGDLYHISTFileParserProcessor;
 
 /**
  * @author  Jay Mukherjee

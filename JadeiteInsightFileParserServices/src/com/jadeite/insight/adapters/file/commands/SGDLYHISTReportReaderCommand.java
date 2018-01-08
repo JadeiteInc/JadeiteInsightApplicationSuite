@@ -1,11 +1,11 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.commands;
+package com.jadeite.insight.adapters.file.commands;
 
-import static com.bns.ecps.hc.finmon.constants.CommonProcessorInputOutputConstants.CANONICAL_SGDLYHIST_DATA;
-import static com.bns.ecps.hc.finmon.constants.CommonProcessorInputOutputConstants.PARSED_SGDLYHIST_DATA;
-import static com.bns.ecps.hc.finmon.constants.CommonProcessorInputOutputConstants.SOURCE_FILE_DETAILS;
+import static com.jadeite.insight.adapters.file.constants.CommonProcessorInputOutputConstants.CANONICAL_SGDLYHIST_DATA;
+import static com.jadeite.insight.adapters.file.constants.CommonProcessorInputOutputConstants.PARSED_SGDLYHIST_DATA;
+import static com.jadeite.insight.adapters.file.constants.CommonProcessorInputOutputConstants.SOURCE_FILE_DETAILS;
 
 import java.util.HashMap;
 import java.util.List;
@@ -14,10 +14,10 @@ import java.util.Map;
 import org.apache.commons.chain.Command;
 import org.apache.commons.chain.Context;
 
-import com.bns.ecps.hc.finmon.constants.CanonicalSGDLYHISTReportDataConstants;
-import com.bns.ecps.hc.finmon.constants.CommandContextConstants;
-import com.bns.ecps.hc.finmon.processors.SGDLYHISTDataTransformerProcessor;
-import com.bns.ecps.hc.finmon.processors.SGDLYHISTFileParserProcessor;
+import com.jadeite.insight.adapters.file.constants.CanonicalSGDLYHISTReportDataConstants;
+import com.jadeite.insight.adapters.file.constants.CommandContextConstants;
+import com.jadeite.insight.adapters.file.processors.SGDLYHISTDataTransformerProcessor;
+import com.jadeite.insight.adapters.file.processors.SGDLYHISTFileParserProcessor;
 
 /**
  * @author  Jay Mukherjee

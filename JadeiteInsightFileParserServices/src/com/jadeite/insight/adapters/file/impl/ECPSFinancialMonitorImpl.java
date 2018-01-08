@@ -1,17 +1,17 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.impl;
+package com.jadeite.insight.adapters.file.impl;
 
-import static com.bns.ecps.hc.finmon.constants.CommandContextConstants.FIN_MONITOR_CONFIG_DIR_PATH;
-import static com.bns.ecps.hc.finmon.constants.CommandContextConstants.SG_DAILY_HISTORY_FILE_PATH;
+import static com.jadeite.insight.adapters.file.constants.CommandContextConstants.FIN_MONITOR_CONFIG_DIR_PATH;
+import static com.jadeite.insight.adapters.file.constants.CommandContextConstants.SG_DAILY_HISTORY_FILE_PATH;
 
 import org.apache.commons.chain.Catalog;
 import org.apache.commons.chain.Command;
 import org.apache.commons.chain.Context;
 
-import com.bns.ecps.hc.finmon.beans.FinMonCommandContext;
-import com.bns.ecps.hc.finmon.commands.FinMonitorCommandCatalog;
+import com.jadeite.insight.adapters.file.beans.FinMonCommandContext;
+import com.jadeite.insight.adapters.file.commands.FinMonitorCommandCatalog;
 
 /**
  * @author  Jay Mukherjee

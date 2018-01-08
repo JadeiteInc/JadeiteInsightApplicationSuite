@@ -1,10 +1,10 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.commands;
+package com.jadeite.insight.adapters.file.commands;
 
-import static com.bns.ecps.hc.finmon.constants.CommandContextConstants.FIN_MONITOR_CONFIG_DIR_PATH;
-import static com.bns.ecps.hc.finmon.constants.CommandContextConstants.FIN_MONITOR_SUMMARY_EXCEL_PATH;
+import static com.jadeite.insight.adapters.file.constants.CommandContextConstants.FIN_MONITOR_CONFIG_DIR_PATH;
+import static com.jadeite.insight.adapters.file.constants.CommandContextConstants.FIN_MONITOR_SUMMARY_EXCEL_PATH;
 
 import java.io.File;
 import java.nio.file.Files;

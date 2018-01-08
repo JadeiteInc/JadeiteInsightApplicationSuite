@@ -1,14 +1,14 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.beans;
+package com.jadeite.insight.adapters.file.beans;
 
 import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.chain.impl.ContextBase;
 
-import com.bns.ecps.hc.finmon.constants.CanonicalSGDLYHISTReportDataConstants;
+import com.jadeite.insight.adapters.file.constants.CanonicalSGDLYHISTReportDataConstants;
 
 /**
  * @author  Jay Mukherjee

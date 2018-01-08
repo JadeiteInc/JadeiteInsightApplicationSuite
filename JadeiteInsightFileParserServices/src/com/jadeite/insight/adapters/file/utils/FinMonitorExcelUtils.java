@@ -1,7 +1,7 @@
 /**
  * ECPS Health Center
  */
-package com.bns.ecps.hc.finmon.utils;
+package com.jadeite.insight.adapters.file.utils;
 
 import java.util.List;
 
@@ -15,7 +15,7 @@ import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTTableColumn;
 import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTTableColumns;
 import org.openxmlformats.schemas.spreadsheetml.x2006.main.CTTableStyleInfo;
 
-import com.bns.ecps.hc.finmon.constants.ExcelConstants;
+import com.jadeite.insight.adapters.file.constants.ExcelConstants;
 
 /**
  * @author  Jay Mukherjee

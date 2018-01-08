@@ -4,5 +4,12 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="var" path="JRE_LIB"/>
 	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/commons-chain-1.2/commons-chain-1.2.jar"/>
+	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/apache-log4j-2.9.0-bin/log4j-1.2-api-2.9.0.jar"/>
+	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/json-simple/json-simple-1.1.1.jar"/>
+	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/poi-3.17/poi-3.17.jar"/>
+	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/poi-3.17/poi-excelant-3.17.jar"/>
+	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/poi-3.17/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="var" path="JADEITE_INSIGHT_BUILD_PATH/lib/poi-3.17/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

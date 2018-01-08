@@ -8,4 +8,4 @@
  * 
  *
  */
-package com.bns.ecps.hc.finmon.utils;
+package com.jadeite.insight.adapters.file.utils;
